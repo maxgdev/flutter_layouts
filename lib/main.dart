@@ -68,3 +68,5 @@ final ratings = Container(
     ],
   ),
 );
+
+// To minimize the visual confusion that can result from heavily nested layout code, implement pieces of the UI in variables and functions.
