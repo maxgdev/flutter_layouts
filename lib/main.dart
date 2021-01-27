@@ -23,9 +23,14 @@ class MyApp extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Image.asset('images/flower1.jpg'),
-              Image.asset('images/flower2.jpg'),
-              Image.asset('images/flower3.jpg'),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                Image.asset('images/flower1.jpg'),
+                Image.asset('images/flower2.jpg'),
+                Image.asset('images/flower3.jpg'),
+                ],  
+              ),
             ],
           ),
           ),
