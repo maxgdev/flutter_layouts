@@ -21,18 +21,15 @@ class MyApp extends StatelessWidget {
         body: Center(
           // child: Text('Hello Layout World'),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisSize: MainAxisSize.min,
             children: [
-              Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                Image.asset('images/flower1.jpg'),
-                Image.asset('images/flower2.jpg'),
-                Image.asset('images/flower3.jpg'),
-                ],  
-              ),
+              Icon(Icons.star, color: Colors.green[500]),
+              Icon(Icons.star, color: Colors.green[500]),
+              Icon(Icons.star, color: Colors.green[500]),
+              Icon(Icons.star, color: Colors.black),
+              Icon(Icons.star, color: Colors.black),
             ],
-          ),
+          )
           ),
       ),
     );
